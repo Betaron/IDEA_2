@@ -78,7 +78,8 @@ void Filework::XXcryptionCycle() {
 		Buf[E] = Buf[A] ^ Buf[C];
 		Buf[F] = Buf[B] ^ Buf[D];
 
-		SubBuf = MM.ModMultiplication(MM.ModAddition(Buf[F], MM.ModMultiplication(Buf[E], (*KeysBunch).GetSubKey(i, 4))), (*KeysBunch).GetSubKey(i, 5));
+		SubBuf = MM.ModMultiplication(MM.ModAddition(Buf[F], MM.ModMultiplication(Buf[E],
+			(*KeysBunch).GetSubKey(i, 4))), (*KeysBunch).GetSubKey(i, 5));
 		*(DataBlock + 0) = Buf[A] ^ SubBuf;
 		*(DataBlock + 1) = Buf[C] ^ SubBuf;
 		SubBuf = MM.ModAddition(MM.ModMultiplication(Buf[E], (*KeysBunch).GetSubKey(i, 4)), SubBuf);

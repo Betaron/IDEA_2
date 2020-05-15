@@ -18,7 +18,7 @@ int GetMenuItem() {
 
 int main() {
 
-	encanddec scientist;		//объект класса для штфрования и дешифрования
+	encanddec scientist;		//объект класса для шифрования и дешифрования
 
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);

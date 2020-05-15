@@ -10,7 +10,7 @@ using namespace std;
 class Filework //Класс работы с файлами
 {
 private:
-	string SourceFileName;					//Название файла получаемого программой на вход
+	string SourceFileName;					//Название файла, получаемого программой на вход
 	string OutputFileName;					//Название файла, который создаётся программой (.enc | .dec)
 	ifstream fin;							//Файл для забора исходных данных
 	ofstream fout;							//Файл - результат работы программы

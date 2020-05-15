@@ -30,9 +30,6 @@
     <ClCompile Include="Keys.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="ideamop.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="Filework.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>

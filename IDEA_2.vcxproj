@@ -141,7 +141,6 @@
     <ClCompile Include="Decryption.cpp" />
     <ClCompile Include="Encryption.cpp" />
     <ClCompile Include="Filework.cpp" />
-    <ClCompile Include="ideamop.cpp" />
     <ClCompile Include="Keys.cpp" />
     <ClCompile Include="output.cpp" />
     <ClCompile Include="Source.cpp" />
